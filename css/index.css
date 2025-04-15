@@ -1,0 +1,198 @@
+@keyframes lunbo {
+	0% {
+		transform: translateX(0);
+	}
+
+	8%,
+	17% {
+		transform: translateX(-891px);
+	}
+
+	25%,
+	33% {
+		transform: translateX(-1782px);
+	}
+
+	42%,
+	50% {
+		transform: translateX(-2673px);
+	}
+
+	58%,
+	66% {
+		transform: translateX(-3564px);
+	}
+
+	75%,
+	83% {
+		transform: translateX(-4455px);
+	}
+	92%,
+	100%{transform: translateX(-5346px);}
+}
+
+.bigbox {
+	position: relative;
+	height: 1460px;
+	width: 100%;
+}
+
+.zhengwen {
+	width: 1226px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.zhengwen ul li {
+	height: 55.75px;
+	width: 335px;
+	list-style-type: none;
+	line-height: 55.75px;
+	color: #FFFFFF;
+	background-position: 93%;
+	background-repeat: no-repeat;
+	background-size: 8%;
+	background-image: url(../images/%E5%8F%B3%E7%AE%AD%E5%A4%B4.png);
+}
+
+.zhengwen ul {
+	font-size: 14px;
+	font-family: "小米兰亭";
+	font-weight: 300;
+	background-color: rgba(105, 101, 101, .6);
+	float: left;
+}
+
+li-txt {
+	margin-left: 30px;
+}
+
+.zhengwen ul li:hover {
+	background-color: #FF6900;
+}
+
+.zhengwen>.out>img {
+	float: left;
+}
+
+.phone {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 335px;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 5px #757575;
+	width: 400px;
+	z-index: 2;
+}
+
+.zhengwen ul li:hover .phone {
+	display: block;
+}
+
+.zhengwen ul .phone dd {
+	color: #323232;
+	font-family: "小米兰亭";
+	font-size: 13px;
+	background-image: none;
+	margin-left: 10px;
+	height: 70px;
+	line-height: 70px;
+	background-repeat: no-repeat;
+}
+
+.zhengwen ul .phone dd img {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.kong {
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 70px;
+	width: 10px;
+	float: left;
+}
+
+.out {
+	width: 891px;
+	height: 334.5px;
+	overflow: hidden;
+	position: absolute;
+	left: 335px;
+}
+
+.in {
+	width: 6237px;
+	height: 334.5px;
+	animation-name: lunbo;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}
+
+.in img {
+	float: left;
+}
+
+.meum {
+	float: left;
+	position: absolute;
+	top: 0px;
+}
+
+.meum li>a {
+	display: block;
+	height: 55px;
+	width: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
+.phone a {
+	text-decoration: none;
+	color: #323232;
+}
+
+.phone a:visited {
+	color: #323232;
+}
+
+.phone a:hover {
+	color: #FF6900;
+}
+
+.bottom-img {
+	position: absolute;
+	top: 334.5px;
+	width: 1226px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.bottom-img img {
+	margin-bottom: 20px;
+}
+
+.bottom-text {
+	margin-left: 313px;
+}
+
+.zhengwen {
+	position: absolute;
+	top: 65px;
+	right: 0px;
+	left: 0px;
+}
+.home-phone {
+	position: absolute;
+	top: 650px;
+	width: 1226px;
+}
+
+.home-phone p {
+	font-size: 22px;
+	color: #333333;
+}

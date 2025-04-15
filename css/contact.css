@@ -1,0 +1,46 @@
+.zhengwen{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1226px;
+}
+.zhengwen>p {
+	font-size: 13px;
+	margin-top: 10px;
+	color: #939393;
+	margin-bottom: 10px;
+}
+.zhengwen a {
+	text-decoration: none;
+	color: #939393;
+}
+.zhengwen a:hover {
+	color: #FF6900;
+}
+.zhengwen h1{
+	font-weight: 400;
+	font-size: 28px;
+	color: #333;
+	padding-bottom: 25px;
+	margin: 0;
+}
+.text1{
+	padding: 70px 0 74px 186px;
+}
+.zhengwen h2{
+	color: #424242;
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 10px;
+	margin: 0;
+}
+.zhengwen li{
+	color: #757575;
+	line-height: 2.1;
+	list-style: none;
+}
+.zhengwen h3{
+	font-weight: 400;
+	color: #ff6700;
+	font-size: 28px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,57 @@
+.bigbox {
+	font-family: "小米兰亭";
+	position: relative;
+}
+
+.zhengwen {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1226px;
+	height: 2640px;
+}
+.jianjie{
+	background-color: #FFFFFF;
+	margin-top: 10px;
+}
+
+.bigbox .zhengwen .jianjie p {
+	margin: 30px;
+	width: 1150px;
+	font-size: 14px;
+}
+
+.logo-jianjie {
+	float: left;
+	margin: 30px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+.little-text {
+	margin-top: 20px;
+	margin-right: 20px;
+	color: #757575;
+}
+
+h2 {
+	text-align: center;
+	line-height: 90px;
+	font-size: 48px;
+	color: #FF6900;
+}
+.zhengwen a {
+	text-decoration: none;
+	color: #939393;
+}
+
+.zhengwen a:hover {
+	color: #FF6900;
+}
+.zhengwen>p {
+	font-size: 13px;
+	margin-top: 10px;
+	color: #939393;
+	margin-bottom: 10px;
+}
